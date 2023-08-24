@@ -1,0 +1,100 @@
+.hello{
+  .owl-carousel{
+    margin-top: -40px;
+    .owl-stage{
+      margin-top: 40px;
+    }
+    .owl-item.active:nth-child(2n+1){
+
+      margin-top: 30px;
+      @media(max-width: 1200px){
+        margin-top: 0;
+      }
+      span{
+        color: $lightColor;
+      }
+
+    }
+    .owl-dots{
+      display: none;
+      @media(max-width: 1199px){
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
+      .owl-dot{
+        &:hover{
+          span{
+            border: 2px solid $colorMain;
+          }
+        }
+        span{
+          border: 2px solid $darkColor;
+          opacity: 1;
+          width: 10px;
+          height: 10px;
+          margin: 10px 0px;
+          @media(max-width: 1199px){
+            margin: 10px 10px 0;
+
+          }
+        }
+        &.active{
+          span{
+            background-color: $colorMain;
+            border-color: $colorMain;
+          }
+        }
+      }
+    }
+  }
+  .container{
+
+    z-index: 10;
+    position: relative;
+  }
+  .hello-img{
+    position: relative;
+    perspective: 300px;
+   img{
+     transition: transform 1.5s ease;
+
+   }
+    span{
+      position: absolute;
+      bottom: 18px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-family: "Vidaloka", serif;
+      font-size: 12px;
+      letter-spacing: 5px;
+      color: $lightColor;
+      text-transform: uppercase;
+    }
+    &:hover{
+
+
+
+      img{
+        transform: rotateY(360deg);
+
+      }
+    }
+  }
+  .hello-content{
+    h3{
+      margin-top: 27px;
+      margin-bottom: 14px;
+      @media(max-width: 575px){
+        margin-top: 10px;
+        margin-bottom: 0px;
+
+      }
+    }
+    p{
+      max-width:250px;
+      margin: 0 auto;
+    }
+  }
+
+}

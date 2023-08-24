@@ -1,0 +1,21 @@
+.team .vertical-item.content-padding .item-content { padding: 40px 20px 41px; }
+
+.team .item-content { background-color: #000000; }
+
+.team .item-content .tile { font-size: 30px; margin-bottom: 0; }
+
+.team .item-content p { font-size: 11px; font-family: 'Vidaloca', serif; letter-spacing: 5px; text-transform: uppercase; margin-bottom: 21px; }
+
+.team .item-content p.social-icons { margin-bottom: 0; }
+
+.team .content-heading { margin-top: 32px; margin-bottom: 17px; font-size: 30px; }
+
+.team .entry-title { font-size: 40px; margin-bottom: 19px; }
+
+.team .feature-list { display: flex; flex-direction: column; margin-top: 26px; padding-left: 0; }
+
+.team .feature-list li { border-top: 1px solid #313131; border-bottom: 1px solid #313131; display: inline-block; padding-top: 26px; padding-bottom: 24px; font-size: 18px; }
+
+.team .feature-list li a:hover { color: #FFFFFF; }
+
+/*# sourceMappingURL=../../includes/maps/shortcodes/team.css.map */

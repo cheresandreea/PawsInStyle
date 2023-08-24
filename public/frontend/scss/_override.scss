@@ -1,0 +1,365 @@
+/*
+** Bootstrap Overrides
+*/
+@import 'override_bootstrap/breadcrumbs';
+@import 'override_bootstrap/forms';
+@import 'override_bootstrap/carousel';
+@import 'override_bootstrap/tabs';
+@import 'override_bootstrap/collapse';
+@import 'override_bootstrap/dropdowns';
+.dropdown-toggle::after{
+  display: none;
+}
+//making container 1170px width for wide screens
+@media (min-width: 1300px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+//other bootstrap elements
+/* modal */
+.modal-open {
+  padding-right: 0 !important;
+}
+
+.modal-backdrop.show {
+  background-color: #4d4d4d;
+  opacity: 0.9;
+}
+
+.modal-content {
+  border-radius: 1px;
+  [class*="col-"]:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/* bootstrap buttons */
+.btn {
+  @include small-text();
+  padding: 32px 42px;
+  border-radius: 0;
+  font-size: 12px;
+  letter-spacing: 4px;
+  min-width: 270px;
+  font-family: 'Vidaloka', serif;
+  margin-bottom: 4px;
+  border-width: 2px;
+  @media(max-width: 575px){
+    min-width: 235px;
+  }
+  //for icons
+  &.round,
+  &.rounded {
+    padding: 23px;
+    line-height: 1;
+  }
+}
+
+/* media */
+
+.media{
+
+  a:hover{
+    color: $colorMain!important;
+  }
+
+  &.media-top {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    * + .media-body, .media-body + * {
+      margin-left: 0;
+    }
+    h4, h3, h6 {
+      margin-bottom: 17px;
+      margin-top: 30px;
+
+    }
+  }
+
+  .icon-styled {
+    //margin-top: 5px;
+  }
+
+  .fa{
+    font-size: 40px;
+  }
+
+  .round{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .media-body{
+
+    h4,h3,h5 {
+      font-size: 30px;
+
+      line-height: 30px;
+      transition: all .3s ease-in-out;
+      margin-bottom: 13px;
+      &:hover{
+        color: $colorMain;
+      }
+    }
+  }
+  &.bordered,
+  &.rounded{
+    @media (max-width: 480px) {
+      align-items: center;
+      flex-direction: column;
+      .media-body{
+        margin-left: 0;
+        margin-top: 30px;
+        order: 2;
+        & + .icon-styled{
+          order: 1;
+          margin-left: 0!important;
+        }
+      }
+    }
+  }
+}
+
+/* media elements */
+.media > img {
+  display: block;
+}
+
+.media-body {
+  h3, h4 {
+    line-height: 1;
+    margin-top: 0.3em;
+    margin-bottom: 0.2em;
+  }
+
+  * + &,
+  & + * {
+    margin-left: 26px;
+  }
+}
+
+//for media component inside table - for dashboard
+td .media-body {
+  width: auto;
+}
+
+// our custom video placeholser
+.embed-responsive-3by2 {
+  //height property removed in v4
+  height: 0;
+  //padding-bottom: 66.666%;
+  padding-bottom: 67.3%;
+
+a{
+  &:hover{
+    img{
+      transition: all 0.3s ease;
+      filter: blur(3px);
+      transform: scale(1.2, 1.2);
+    }
+  }
+}
+}
+
+.embed-placeholder {
+  &:after {
+    content: "";
+    height: 60px;
+    left: 50%;
+    background: url(../img/owl.video.png) no-repeat center;
+
+    position: absolute;
+transform: translate(-50%, -50%);
+    top: 50%;
+    transition: all 0.3s ease-in-out;
+    width: 60px;
+  }
+  &:hover:after {
+    opacity: 0.8;
+  }
+}
+
+.alert {
+  border-radius: 0;
+  border-width: 0 0 0 4px;
+  padding: 30px;
+  margin-bottom: 40px;
+}
+
+.mark, mark {
+  background-color: transparent;
+  color: $colorMain;
+}
+
+button.close {
+  min-width: 0;
+}
+
+/* small in headings */
+.h1 .small,
+.h1 small,
+.h2 .small,
+.h2 small,
+.h3 .small,
+.h3 small,
+.h4 .small,
+.h4 small,
+.h5 .small,
+.h5 small,
+.h6 .small,
+.h6 small,
+h1 .small,
+h1 small,
+h2 .small,
+h2 small,
+h3 .small,
+h3 small,
+h4 .small,
+h4 small,
+h5 .small,
+h5 small,
+h6 .small,
+h6 small {
+  color: inherit;
+  font-weight: 300;
+}
+
+/* labels */
+.label-success {
+  color: $lightColor;
+  background-color: $colorSuccess;
+}
+
+.label-info {
+  color: $lightColor;
+  background-color: $colorInfo;
+}
+
+.label-warning {
+  color: $lightColor;
+  background-color: $colorWarning;
+}
+
+.label-danger {
+  color: $lightColor;
+  background-color: $colorDanger;
+}
+
+/*
+progressbar*/
+p + .progress {
+  margin-top: -12px;
+}
+
+.progress-title {
+  font-size: 11px;
+  letter-spacing: 4px;
+  font-family: 'Vidaloka', serif;
+  text-transform: uppercase;
+  margin-bottom: 20px !important;
+  padding-right: 45px;
+  line-height: 1.6;
+  color:$darkColor;
+}
+
+.progress {
+  height: 5px!important;
+  overflow: visible;
+  margin-bottom: 28px;
+  background-color: $greyColor;
+  position: relative;
+  padding: 0 !important;
+  [data-transitiongoal] {
+    width: 0;
+  }
+  .progress-bar {
+    transition: width 0.5s ease 0.2s;
+    padding: 2px 0 !important;
+  }
+
+  span {
+    position: absolute;
+    right: -3px;
+    top: -34px;
+    font-size: 11px;
+    letter-spacing: 4px;
+    font-family: 'Vidaloka', serif;
+    color:$darkColor;
+  }
+}
+
+/* Tabs */
+.nav-tabs {
+  .nav-item {
+    margin-bottom: -2px;
+    margin-right: 2px;
+    @media (max-width: 992px) {
+      margin-right: 0;
+    }
+    .nav-link {
+      text-align: center;
+      letter-spacing: 4px;
+      font-family: 'Vidaloka', serif;
+      font-size: 12px;
+      border: none;
+      min-width: 270px;
+
+      &:hover,
+      &.active{
+        border-color: $colorMain!important;
+        background: $colorMain;
+        color: $lightColor;
+      }
+    }
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+}
+.tab-content{
+
+  padding: 50px 55px;
+  border: none!important;
+  margin-bottom: 30px;
+  border-radius: 0 0 3px 3px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  &.tab-content-widget{
+    padding: 40px;
+  }
+}
+
+@media ( max-width: 768px) {
+  .nav-tabs {
+    .nav-link {
+      padding: 20px;
+      letter-spacing: 0.1em;
+    }
+  }
+  .tab-content{
+    padding: 35px;
+    & > .tab-pane{
+      .media {
+        flex-direction: column;
+        align-items: center;
+        & > * {
+          margin-left: 0;
+          margin-right: 0;
+        }
+        img{
+          margin-right: 0;
+          margin-bottom: 25px;
+        }
+      }
+    }
+  }
+}
+@media(max-width: 575px){
+  .tab-content{
+    padding: 20px;
+  }
+}

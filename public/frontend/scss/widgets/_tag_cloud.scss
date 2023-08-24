@@ -1,0 +1,22 @@
+/* widget_tag_cloud */
+.widget_tag_cloud {
+  a {
+    min-width: 165px;
+    text-align: center;
+    font-family: 'Vidaloka', serif;
+    font-size: 12px;
+    letter-spacing: 4px;
+
+    border: 2px solid $darkgreyColor;
+    padding: 1px 18px 1px 22px;
+    margin: 0 3px 10px 0;
+    display: inline-block;
+    text-transform: uppercase;
+    &:hover {
+      background-color: transparent;
+      border-color: $colorMain;
+      color: $colorMain;
+    }
+  }
+
+}

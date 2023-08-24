@@ -1,0 +1,103 @@
+.soon{
+  background-image: url("../images/parallax/soon.jpg");
+  background-position: 25% 9%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: calc(100vh - 130px);
+  @media(max-width: 992px){
+
+    background: $greyColor;
+  }
+  .title-comingsoon{
+    position: relative;
+    .sub-title.com-soon{
+      font-size: 30px;
+      letter-spacing: 0;
+    }
+  }
+
+  .special-heading{
+    font-size: 80px;
+    text-transform: uppercase;
+
+    & + p {
+      font-size: 30px;
+      color: #fff;
+    }
+
+    @media (max-width: 768px) {
+      font-size: 40px;
+      & + p{
+        font-size: 14px;
+      }
+    }
+  }
+  & + .page_title{
+    .widget.widget_mailchimp{
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    @media (max-width: 991px){
+      h2{
+        font-size: 30px;
+        margin-top: 20px;
+      }
+    }
+    @media (max-width: 768px) {
+      .widget.widget_mailchimp{
+        padding-top: 0;
+      }
+    }
+    @media (max-width: 575px) {
+      h2{
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+.countdown-section{
+  margin-right: 20px;
+  display: block;
+  background-color: transparent;
+  max-width: 150px;
+  @media(max-width: 768px){
+    max-width: 110px;
+    margin-right: 5px;
+    padding: 10px 0;
+  }
+
+}
+.countdown-amount{
+  font-family: "Vidaloka", serif;
+  font-size: 60px;
+  color: $darkColor;
+  padding: 24px 43px;
+  background-color: $lightColor;
+  width: 100%;
+  display: block;
+  text-align: center;
+
+  @media(max-width: 768px){
+    font-size: 50px;
+    padding: 20px;
+  }
+  @media(max-width: 575px){
+    font-size: 30px;
+    padding: 10px;
+  }
+
+}
+.countdown-period{
+  font-family: "Vidaloka", serif;
+  font-size: 20px;
+  color: $darkColor;
+  padding: 15px 20px;
+  background-color: $lightColor;
+  margin-top: 5px;
+  min-width: auto;
+  text-align: center;
+  @media(max-width: 768px){
+    font-size: 12px;
+    padding: 0px;
+  }
+}

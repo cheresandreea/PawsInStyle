@@ -1,0 +1,15 @@
+/* Gallery */
+
+.gallery-single{
+  .title{
+    font-size: 30px;
+  }
+  @media (max-width: 768px) {
+    .item-content{
+      text-align: center;
+    }
+  }
+  .model{
+    background: #000;
+  }
+}

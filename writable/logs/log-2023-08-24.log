@@ -1,0 +1,826 @@
+CRITICAL - 2023-08-24 02:27:16 --> Undefined variable $products
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(399): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\INSTALLER\\ht...', 399)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(43): view('homepage')
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 02:31:10 --> Undefined variable $products
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(408): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\INSTALLER\\ht...', 408)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(43): view('homepage')
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 02:31:11 --> Undefined variable $products
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(408): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\INSTALLER\\ht...', 408)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(43): view('homepage')
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 02:32:14 --> Undefined variable $products
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(399): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\INSTALLER\\ht...', 399)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(43): view('homepage')
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 02:32:14 --> Undefined variable $products
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(399): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\INSTALLER\\ht...', 399)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(43): view('homepage')
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 02:32:21 --> Undefined variable $products
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(399): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\INSTALLER\\ht...', 399)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(43): view('homepage')
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 03:41:46 --> syntax error, unexpected token "}", expecting ";"
+#0 E:\INSTALLER\htdocs\shop_new\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\INSTALLER\\ht...')
+#1 E:\INSTALLER\htdocs\shop_new\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Prod...')
+#2 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(15): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Prod...')
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(809): App\Controllers\HomePage->__construct()
+#4 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-08-24 03:46:08 --> Call to undefined method App\Models\CategoryModel::getNumberOfItemsCategory1
+#0 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(47): CodeIgniter\Model->__call('getNumberOfItem...', Array)
+#1 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-24 03:46:24 --> Call to undefined method App\Models\CategoryModel::getNumberOfItemsCategory1
+#0 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(47): CodeIgniter\Model->__call('getNumberOfItem...', Array)
+#1 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-24 03:46:25 --> Call to undefined method App\Models\CategoryModel::getNumberOfItemsCategory1
+#0 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(47): CodeIgniter\Model->__call('getNumberOfItem...', Array)
+#1 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-24 03:52:38 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+#0 E:\INSTALLER\htdocs\shop_new\app\Models\ProductModel.php(94): count('category_id')
+#1 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(48): App\Models\ProductModel->getNumberOfItemsCategory1()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#4 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-08-24 03:52:59 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+#0 E:\INSTALLER\htdocs\shop_new\app\Models\ProductModel.php(94): count('category_id')
+#1 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(48): App\Models\ProductModel->getNumberOfItemsCategory1()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#4 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-08-24 03:53:04 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+#0 E:\INSTALLER\htdocs\shop_new\app\Models\ProductModel.php(94): count('category_id')
+#1 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(48): App\Models\ProductModel->getNumberOfItemsCategory1()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#4 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-08-24 03:53:13 --> syntax error, unexpected token "}", expecting ";"
+#0 E:\INSTALLER\htdocs\shop_new\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\INSTALLER\\ht...')
+#1 E:\INSTALLER\htdocs\shop_new\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Prod...')
+#2 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(15): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Prod...')
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(809): App\Controllers\HomePage->__construct()
+#4 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-08-24 03:53:18 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+#0 E:\INSTALLER\htdocs\shop_new\app\Models\ProductModel.php(94): count('category_id')
+#1 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(48): App\Models\ProductModel->getNumberOfItemsCategory1()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#4 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-08-24 03:53:35 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+#0 E:\INSTALLER\htdocs\shop_new\app\Models\ProductModel.php(94): count('*')
+#1 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(48): App\Models\ProductModel->getNumberOfItemsCategory1()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#4 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-08-24 03:56:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'of items
+FROM `product`
+WHERE `category_id` = 1' at line 1
+CRITICAL - 2023-08-24 03:56:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'of items
+FROM `product`
+WHERE `category_id` = 1' at line 1
+#0 E:\INSTALLER\htdocs\shop_new\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 E:\INSTALLER\htdocs\shop_new\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 E:\INSTALLER\htdocs\shop_new\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 E:\INSTALLER\htdocs\shop_new\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 E:\INSTALLER\htdocs\shop_new\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\INSTALLER\htdocs\shop_new\app\Models\ProductModel.php(96): CodeIgniter\Model->__call('get', Array)
+#6 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(48): App\Models\ProductModel->getNumberOfItemsCategory1()
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#8 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#9 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-08-24 04:13:19 --> Undefined array key "category_id"
+#0 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 48)
+#1 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-24 04:14:38 --> Undefined array key "category_id"
+#0 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 48)
+#1 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-24 04:15:28 --> Undefined array key "numberOfItemsCategory"
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(462): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 462)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(53): view('homepage', Array)
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 04:16:00 --> Array to string conversion
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(462): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'E:\\INSTALLER\\ht...', 462)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(51): view('homepage', Array)
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 04:16:22 --> Undefined variable $category_id
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(462): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\INSTALLER\\ht...', 462)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(51): view('homepage', Array)
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 04:17:02 --> Array to string conversion
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(462): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'E:\\INSTALLER\\ht...', 462)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(51): view('homepage', Array)
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 04:17:18 --> Undefined array key "numberOfItemsCategory"
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(462): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 462)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(51): view('homepage', Array)
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 04:18:27 --> Undefined array key "numberOfItemsCategory"
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(462): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 462)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(51): view('homepage', Array)
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 04:20:54 --> Undefined variable $data
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(459): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\INSTALLER\\ht...', 459)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(51): view('homepage', Array)
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 04:21:08 --> Undefined array key "numberOfItemsCategory"
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(460): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 460)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(51): view('homepage', Array)
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 04:21:21 --> Undefined array key "numberOfItemsCategory"
+#0 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 49)
+#1 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-24 04:21:44 --> Undefined array key "numberOfItemsCategory"
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(460): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 460)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(51): view('homepage', Array)
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 04:23:38 --> Undefined array key "numberOfItemsCategory"
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(460): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 460)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(51): view('homepage', Array)
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 04:23:47 --> Undefined array key "numberOfItems"
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(460): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 460)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(51): view('homepage', Array)
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 04:24:12 --> Undefined array key "numberOfItems"
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(460): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 460)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(51): view('homepage', Array)
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 04:24:33 --> Undefined array key "numberOfItems"
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(460): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 460)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(51): view('homepage', Array)
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 04:25:44 --> Undefined array key "numberOfItems"
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(460): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 460)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(51): view('homepage', Array)
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 04:28:00 --> Undefined array key "numberOfItemsCat"
+#0 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 51)
+#1 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-24 04:28:11 --> Undefined array key "numberOfItemsCat"
+#0 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 51)
+#1 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-24 04:31:16 --> Undefined array key "numberOfItemsCat"
+#0 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 49)
+#1 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-24 04:31:27 --> Undefined array key "numberOfItemsCat"
+#0 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 49)
+#1 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-24 04:31:42 --> Undefined array key "numberOfItemsCat"
+#0 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 49)
+#1 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-24 04:32:24 --> Undefined array key "numberOfItemsCat"
+#0 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 49)
+#1 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-24 04:32:34 --> Undefined array key "numberOfItemsCat"
+#0 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 49)
+#1 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-24 04:32:48 --> Undefined array key "numberOfItemsCat"
+#0 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 49)
+#1 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-24 04:32:58 --> Undefined array key "numberOfItems"
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(460): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 460)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(52): view('homepage', Array)
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 04:33:08 --> Undefined array key "numberOfItems"
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(460): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 460)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(52): view('homepage', Array)
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 04:33:09 --> Undefined array key "numberOfItems"
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(460): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 460)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(52): view('homepage', Array)
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 04:33:24 --> Undefined array key "numberOfItems"
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(460): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 460)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(52): view('homepage', Array)
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 04:39:14 --> Undefined array key "numberOfItems"
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(460): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 460)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(52): view('homepage', Array)
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 04:42:54 --> Trying to access array offset on value of type int
+#0 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'E:\\INSTALLER\\ht...', 49)
+#1 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-24 04:43:00 --> Trying to access array offset on value of type int
+#0 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'E:\\INSTALLER\\ht...', 49)
+#1 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-24 04:45:51 --> Undefined constant "App\Controllers\i"
+#0 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#1 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-08-24 04:45:52 --> Undefined constant "App\Controllers\i"
+#0 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#1 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-08-24 04:46:12 --> Undefined variable $cat
+#0 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\INSTALLER\\ht...', 50)
+#1 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-24 04:46:13 --> Undefined variable $cat
+#0 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\INSTALLER\\ht...', 50)
+#1 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-24 04:46:22 --> Undefined array key "category_id"
+#0 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 50)
+#1 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-24 04:47:01 --> Undefined array key 2
+#0 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 50)
+#1 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-24 04:47:25 --> Undefined array key "category_id"
+#0 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 50)
+#1 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-24 04:47:33 --> Undefined array key "category_id"
+#0 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 50)
+#1 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-24 04:47:43 --> Undefined array key "category_id"
+#0 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 50)
+#1 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-24 04:47:57 --> Undefined array key 2
+#0 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 50)
+#1 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-24 04:48:37 --> Undefined array key 2
+#0 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 50)
+#1 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-24 04:48:37 --> Undefined array key 2
+#0 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 50)
+#1 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-24 04:49:00 --> Undefined array key 2
+#0 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 50)
+#1 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-24 04:50:33 --> Undefined array key 2
+#0 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 51)
+#1 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-24 05:25:47 --> Undefined array key "numberOfItemsCat"
+#0 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 51)
+#1 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-24 05:25:55 --> Undefined array key "numberOfItemsCat"
+#0 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 51)
+#1 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-24 05:26:03 --> Undefined array key "numberOfItems"
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(460): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 460)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(52): view('homepage', Array)
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 05:26:24 --> Undefined array key "numberOfItems"
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(460): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 460)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(52): view('homepage', Array)
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 05:27:06 --> Undefined array key "category_id"
+#0 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 49)
+#1 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-24 05:27:15 --> Undefined array key "numberOfItems"
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(460): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 460)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(52): view('homepage', Array)
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 05:29:43 --> Undefined array key "numberOfItems"
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(460): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 460)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(52): view('homepage', Array)
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 05:30:31 --> Undefined array key "numberOfItems"
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(460): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 460)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(52): view('homepage', Array)
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 05:30:43 --> Undefined array key "numberOfItems"
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(460): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 460)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(52): view('homepage', Array)
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 05:31:15 --> Undefined array key "numberOfItems"
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(460): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 460)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(52): view('homepage', Array)
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 05:34:19 --> Undefined array key 2
+#0 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 49)
+#1 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-24 05:34:51 --> Trying to access array offset on value of type null
+#0 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'E:\\INSTALLER\\ht...', 49)
+#1 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#3 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-24 05:35:18 --> Undefined array key "numberOfItems"
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(460): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\INSTALLER\\ht...', 460)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(53): view('homepage', Array)
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->index()
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 05:44:23 --> Too few arguments to function App\Controllers\HomePage::profile(), 0 passed in E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->profile()
+#1 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#2 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-08-24 05:47:09 --> Undefined variable $totalTime
+#0 E:\INSTALLER\htdocs\shop_new\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\INSTALLER\\ht...', 40)
+#1 E:\INSTALLER\htdocs\shop_new\system\Debug\Toolbar.php(501): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 E:\INSTALLER\htdocs\shop_new\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 E:\INSTALLER\htdocs\shop_new\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#6 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-08-24 05:50:23 --> file_get_contents(): Read of 8192 bytes failed with errno=13 Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'file_get_conten...', 'E:\\INSTALLER\\ht...', 464)
+#1 E:\INSTALLER\htdocs\shop_new\system\Debug\Toolbar.php(464): file_get_contents('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#3 E:\INSTALLER\htdocs\shop_new\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#4 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#5 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-08-24 06:16:35 --> Undefined variable $products
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(393): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\INSTALLER\\ht...', 393)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(63): view('homepage', Array)
+#5 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(48): App\Controllers\HomePage->getArr(Array)
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->profile('106')
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#8 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-24 06:16:41 --> Undefined variable $products
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(393): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\INSTALLER\\ht...', 393)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(63): view('homepage', Array)
+#5 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(48): App\Controllers\HomePage->getArr(Array)
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->profile('1')
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#8 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-24 06:18:25 --> Undefined variable $products
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(393): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\INSTALLER\\ht...', 393)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(65): view('homepage', Array)
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->profile('1')
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 06:18:26 --> Undefined variable $products
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(393): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\INSTALLER\\ht...', 393)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(65): view('homepage', Array)
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->profile('1')
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 06:18:29 --> Undefined variable $products
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(393): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\INSTALLER\\ht...', 393)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(65): view('homepage', Array)
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->profile('1')
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 06:19:10 --> Undefined variable $products
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\homepage.php(393): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\INSTALLER\\ht...', 393)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(65): view('homepage', Array)
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->profile('1')
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 06:21:55 --> Undefined variable $data
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\product_profile.php(945): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\INSTALLER\\ht...', 945)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('product_profile', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(66): view('product_profile', Array)
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->profile('1')
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 06:26:33 --> Unsupported operand types: string * int
+#0 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include()
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('product_profile', Array, true)
+#3 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(66): view('product_profile', Array)
+#4 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->profile('108')
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-08-24 06:26:36 --> Unsupported operand types: string * int
+#0 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include()
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('product_profile', Array, true)
+#3 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(66): view('product_profile', Array)
+#4 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->profile('108')
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-08-24 06:45:13 --> Undefined variable $products
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\product_profile.php(717): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\INSTALLER\\ht...', 717)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('product_profile', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(66): view('product_profile', Array)
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->profile('1')
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-24 06:47:20 --> Trying to access array offset on value of type null
+#0 E:\INSTALLER\htdocs\shop_new\app\Views\product_profile.php(421): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'E:\\INSTALLER\\ht...', 421)
+#1 E:\INSTALLER\htdocs\shop_new\system\View\View.php(210): include('E:\\INSTALLER\\ht...')
+#2 E:\INSTALLER\htdocs\shop_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\INSTALLER\htdocs\shop_new\system\Common.php(1089): CodeIgniter\View\View->render('product_profile', Array, true)
+#4 E:\INSTALLER\htdocs\shop_new\app\Controllers\HomePage.php(66): view('product_profile', Array)
+#5 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(832): App\Controllers\HomePage->profile('shop-product-le...')
+#6 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomePage))
+#7 E:\INSTALLER\htdocs\shop_new\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\INSTALLER\htdocs\shop_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

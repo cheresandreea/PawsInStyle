@@ -1,0 +1,437 @@
+/*
+** Header
+*/
+
+.page_header {
+  //same as .page_header_side
+  transition: $headerTransition;
+
+  position: relative;
+  top: 0;
+
+  left: 0;
+  right: 0;
+  width: 100%;
+
+  z-index: 1000;
+  margin: 0;
+  padding: 0;
+
+  //display_table fix on affix
+  height: auto;
+
+  &.bottom_mask_add::before{
+    background-color: #000000;
+  }
+
+  .container-fluid{
+    &.bottom_mask_add::before{
+      background-color: #000000;
+    }
+  }
+
+  .social-icons{
+    a.color-bg-icon{
+      margin-right: 10px;
+      &::before{
+        width: 2.60em;
+        height: 2.60em;
+        line-height: 2.60em;
+      }
+      &:hover{
+        &::before{
+          height: calc( 2.6em - 4px);
+          width: calc( 2.6em - 4px);
+          line-height: calc( 2.6em - 4px);
+        }
+      }
+    }
+  }
+
+  a.logo{
+    img{
+      transition: all 0.2s linear 0s;
+
+      max-height: none;
+    }
+    @media (max-width: 1400px) {
+      img{
+
+      }
+    }
+  }
+
+  div.top-includes{
+    margin-top: 37px;
+    @media (max-width: 1200px){
+      display: none;
+    }
+  }
+  .top-includes{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    li{
+      margin-left: 0;
+    }
+    a{
+      font-size: 14px;
+      margin-right: 27px;
+      &:hover{
+        color: $colorMain;
+      }
+      @media (max-width: 1650px) {
+        margin-right: 10px;
+      }
+    }
+    .header-phone{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 11px;
+      letter-spacing: 4px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+
+      .phone{
+        border: 2px solid #FFFFFF;
+        border-radius: 5px;
+        padding: 5px 15px;
+        font-size: 24px;
+        font-family: "Vidaloka", serif;
+
+        @media (max-width: 1440px) {
+          font-size: 18px;
+        }
+      }
+    }
+    @media (max-width: 1200px) {
+      justify-content: space-between;
+      a{
+        padding: 0;
+      }
+      .header-phone{
+        span:first-child, span:last-child{
+          display: none;
+        }
+        .phone{
+          letter-spacing: 3px;
+          font-weight: 200;
+          span{
+            display: inline-block;
+          }
+        }
+      }
+    }
+  }
+
+  .boxed &,
+  &.affix {
+    position: fixed !important;
+    z-index: 1001;
+    box-shadow: 0 2px 15px 0 rgba(100, 100, 100, 0.35);
+    opacity: 0.98;
+    //remove bottom border for affixed header with s-borderbottom class
+    &:after {
+      background-color: transparent;
+    }
+
+    .header-phone{
+      & >span{
+        &:last-child, &:first-child{
+          display: inline-block;
+          height: 0;
+          font-size: 0;
+          visibility: hidden;
+          transition: visibility 0.2s linear 0s;
+        }
+      }
+    }
+
+    a.logo{
+      img{
+        transition: all 0.2s linear 0s;
+
+        max-height: none;
+      }
+    }
+  }
+  //hidding top border on affixed header
+  &.affix.s-bordertop::before {
+    display: none;
+  }
+
+  @media (max-width: 991px) {
+    &.mobile-active {
+      z-index: 1003;
+      opacity: 1;
+    }
+  }
+
+  //fix bug when refresh page at the bottom and header goes down
+  &.affix-bottom {
+    //!important is necessary
+    top: 0 !important;
+    position: fixed;
+  }
+
+  //min height for mobile toggler be always on header
+  //for prevent header mobile menu toggler overlap bordered header
+  // 62 - broken design on 60px color toggler - back to 60
+  .row {
+    min-height: 80px;
+  }
+
+
+  //fix header buttons dropdown
+  .dropdown {
+    //white-space: nowrap;
+  }
+
+  a {
+    display: inline-block;
+  }
+
+  .btn {
+    margin-bottom: 0;
+
+  }
+}
+.dropdown{
+  margin-right: 36px;
+}
+//when refreshing page - header height is smaller because it is affixed
+//fixing
+//absolute header when using header on slider or on title (for parallax or image background)
+.header_absolute {
+  position: relative;
+  .page_header,
+  .page_header_wrapper {
+    z-index: 1002;
+    position: absolute;
+    right: 0;
+    left: 0;
+  }
+
+  //&.cover-background {
+    .page_topline,
+    .page_toplogo,
+    .page_header_wrapper,
+    .page_title {
+      background-color: transparent;
+    }
+
+    //fix for boxed layout
+    #canvas:not(.boxed) & .page_header.affix-top {
+      background-color: transparent;
+    }
+  //}
+
+}
+
+//other header sections
+.page_topline {
+  line-height: 1.4;
+
+  &.small-text i {
+    font-size: 14px;
+  }
+
+  .icon-inline {
+    justify-content: center;
+  }
+  .social-icons {
+    display: inline-block;
+    a.color-bg-icon{
+      margin-right: 10px;
+      &::before{
+        width: 2.60em;
+        height: 2.60em;
+        line-height: 2.60em;
+      }
+      &:hover{
+        &::before{
+          height: calc( 2.6em - 4px);
+          width: calc( 2.6em - 4px);
+          line-height: calc( 2.6em - 4px);
+        }
+      }
+    }
+  }
+  //topline menu
+  .widget_nav_menu {
+    display: inline-block;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      display: inline-block;
+    }
+  }
+
+  .dropdown-menu {
+    margin: 23px 0 0 -25px;
+
+  }
+  .dropdown-language {
+    //flags
+    a > img {
+      max-width: 16px;
+      position: relative;
+      bottom: 1px;
+      margin-right: 6px;
+    }
+  }
+
+  //news owl-carousel
+  .owl-news-slider-dates {
+    font-weight: 700;
+  }
+  .topline-news-item {
+    height: 2em;
+    line-height: 2em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 0 90px;
+    .cat-links {
+      display: inline;
+    }
+  }
+  .topline-news-nav-arrow {
+    border: 1px solid $darkgreyColor;
+    font-size: 10px;
+    position: relative;
+    bottom: 20px;
+    line-height: 38px;
+    width: 40px;
+    transition: opacity 0.2s ease-in-out;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+  .owl-nav > div {
+    opacity: 1;
+  }
+
+}
+
+.page_toplogo {
+  a.color-bg-icon{
+    margin-right: 10px;
+    &::before{
+      width: 2.60em;
+      height: 2.60em;
+      line-height: 2.60em;
+    }
+    &:hover{
+      &::before{
+        height: calc( 2.6em - 4px);
+        width: calc( 2.6em - 4px);
+        line-height: calc( 2.6em - 4px);
+      }
+    }
+  }
+  @media (min-width: 992px) {
+    .media + .media {
+      margin-left: 60px;
+    }
+  }
+
+  .widget_search form, .widget_product_search form,
+  .widget_search input, .widget_product_search input {
+    max-width: none;
+  }
+
+  @media (max-width: 991px) {
+    .media {
+      margin: 10px;
+    }
+  }
+}
+
+.page_topline,
+.page_toplogo,
+.page_header {
+  .container-fluid {
+    @media(min-width: 1500px) {
+      //padding-left: 60px;
+      //padding-right: 60px;
+    }
+  }
+}
+.header-includ{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  @media(max-width: 1200px){
+    display: none;
+  }
+}
+.page_topline{
+  .top-3{
+    @media(max-width: 575px){
+      display: none;
+    }
+  }
+  .top-includ.top-2{
+    justify-content: flex-end;
+  }
+}
+.top-includ, .top-1{
+  display: none;
+  @media(max-width: 1200px){
+    display: flex;
+    justify-content: center;
+  }
+  .search_modal_button{
+    padding-left: 0;
+  }
+}
+.header3{
+  .top-nav{
+    ul{
+
+      li{
+        position: relative;
+        &:last-child{
+          &:after{
+            display: none;
+          }
+        }
+        &:after{
+          content:"";
+          background-color: $darkColor;
+          width: 3px;
+          border-radius: 50%;
+          height: 3px;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          right: 0;
+          font-size: 30px;
+        }
+
+       & ul{
+          li{
+            &:after{
+              display: none;
+            }
+          }
+        }
+        & .mega-menu ul{
+          li{
+            &:after{
+              display: none;
+            }
+          }
+        }
+
+      }
+    }
+  }
+}
+@import 'header/header_includes';
+@import 'header/logo';
+@import 'header/search_modal';

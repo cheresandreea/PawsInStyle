@@ -1,0 +1,29 @@
+/*
+** Shortcodes
+*/
+@import 'shortcodes/team';
+@import 'shortcodes/icon-box';
+@import 'shortcodes/special-heading';
+@import 'shortcodes/number-card';
+@import 'shortcodes/price_table';
+@import 'shortcodes/quote-item';
+@import 'shortcodes/items-masonry';
+@import 'shortcodes/gallery';
+@import 'shortcodes/main-gallery';
+@import 'shortcodes/hello';
+@import 'shortcodes/services';
+@import 'shortcodes/banners';
+
+
+.contact-form {
+  textarea {
+    min-height: 160px;
+  }
+}
+
+.excerpt {
+  font-size: 20px;
+  color: $darkColor;
+  font-family: "Vidaloka", serif;
+
+}

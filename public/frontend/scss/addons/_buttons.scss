@@ -1,0 +1,87 @@
+/*
+** Buttons
+ */
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn.focus,
+.btn:focus {
+  box-shadow: 0 0 3px 0 rgba(100, 100, 100, .75);
+}
+
+.btn-secondary {
+  border-color: $borderColor;
+  color: $darkgreyColor;
+}
+
+/*color background buttons*/
+.btn-maincolor,
+.btn-maincolor2,
+.btn-maincolor3,
+.btn-darkgrey {
+  color: $lightColor;
+  border: 2px solid $colorMain;
+}
+
+.btn-maincolor {
+  background-color: $colorMain;
+}
+
+.btn-maincolor2 {
+  background-color: $colorMain2;
+  border: 2px solid $colorMain2;
+}
+
+.btn-maincolor3 {
+  background-color: $colorMain3;
+  border: 2px solid $colorMain3;
+}
+
+.btn-darkgrey {
+  background-color: $darkgreyColor;
+}
+
+/*color outline buttons*/
+.btn-outline-maincolor,
+.btn-outline-maincolor2,
+.btn-outline-maincolor3,
+.btn-outline-darkgrey {
+  color: $darkColor;
+  background-color: transparent;
+  font-size: 12px;
+  letter-spacing: 4px;
+  max-width: 270px;
+  font-family: 'Vidaloka', serif;
+  border-width: 2px;
+  padding: 32px 0px;
+}
+
+.btn-outline-maincolor {
+  border-color: $darkColor;
+}
+
+.btn-outline-maincolor2 {
+  border-color: $darkColor;
+}
+
+.btn-outline-maincolor3 {
+  border-color: $darkColor;
+}
+
+.btn-outline-darkgrey {
+  border-color: $darkColor;
+}
+
+// Buttons wc-forward
+.button{
+  &.wc-forward{
+    color: $darkColor;
+    font-size: 12px;
+    letter-spacing: 4px;
+    border-radius: 0px;
+    min-width: 202px;
+    font-family: 'Vidaloka', serif;
+    border: 2px solid $colorMain;
+  }
+}

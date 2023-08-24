@@ -1,0 +1,198 @@
+/* bootstrap collapse*/
+//unstyled
+[data-toggle="collapse"] {
+  display: inline-block;
+  position: relative;
+  padding-right: 20px;
+
+  &:after {
+    position: absolute;
+    right: 0;
+    top: 50%;
+
+    font-size: 12px;
+    font-family: 'Flaticon';
+    content: "\f114";
+    font-weight: 600;
+  }
+  &.collapsed {
+    &:after {
+      content: "\f142";
+      font-family: "Flaticon";
+    }
+  }
+
+}
+
+//cards as tabs
+.card{
+  [role="tabpanel"]{
+    background-color: #fff;
+    &.show{
+      div{
+        padding: 20px 0;
+      }
+    }
+  }
+}
+[role="tabpanel"]{
+  background-color: #fff;
+  &.show{
+    div{
+      padding: 5px 0 15px;
+    }
+  }
+}
+[role="tablist"] {
+  .card {
+    border-radius: 0px;
+    overflow: hidden;
+    border: none;
+    background: none;
+    & + .card {
+      margin-top: 10px;
+    }
+  }
+  .card-header {
+    border-radius: 0;
+    padding: 0;
+    background-color: $colorMain;
+    border: none;
+    color: #1b222e;
+    a {
+      //@include small-text();
+      font-size: 20px;
+      text-transform: capitalize;
+      letter-spacing: 0px;
+      font-weight: normal;
+      line-height: 1.3;
+      display: block;
+      position: relative;
+      padding: 26px 70px 28px 40px;
+      color: $lightColor !important;
+      font-family: "Vidaloka", serif;
+      &:hover{
+        color: #fff !important;
+      }
+
+      &:before,
+      &:after {
+        text-align: center;
+        font-family: inherit;
+        font-size: 38px;
+        font-weight: 100;
+        content: '';
+        width: 60px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        color: $lightColor;
+        transition: opacity 0.3s ease-in-out;
+      }
+      &:after {
+        content: '\f107';
+        font-family: FontAwesome;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #fff;
+        width: 80px;
+        font-size: 14px;
+        font-weight: 300;
+      }
+      &:hover {
+        color: #fff;
+        opacity: inherit !important;
+      }
+      &.collapsed {
+        background-color: $greyColor;
+        color: $darkColor;
+
+        &:hover {
+          color: #fff !important;
+          background-color: $colorMain;
+        }
+        &:after {
+          content: '\f105';
+          color: #000;
+        }
+      }
+      @media (min-width: 400px) {
+        &:after {
+          height: 80px;
+          line-height: 78px;
+        }
+
+      }
+    }
+  }
+  .card-body {
+    padding: 0px 0px 10px;
+  }
+  @media (max-width: 1200px) {
+    .card-body {
+      padding: 37px 40px 32px;
+    }
+  }
+  @media (max-width: 575px) {
+    .card-body {
+      padding: 0 15px 20px;
+    }
+  }
+  .media img {
+    max-width: 80px;
+  }
+}
+
+//unstyled tabs
+[role='tab']{
+
+  h4,h5 {
+     a.collapsed{
+       color: $darkColor !important;
+     }
+    a{
+      font-size: 20px;
+      text-transform: capitalize;
+      letter-spacing: 0em;
+      font-weight: normal;
+      line-height: 1.3;
+      display: block;
+      position: relative;
+      padding: 15px 50px 13px 0;
+
+      color: $colorMain !important;
+      &:hover{
+        opacity: 1 !important;
+        color: $colorMain !important;
+      }
+    }
+  }
+  & + [role="tabpanel"]{
+    .card-body{
+      background: transparent;
+    }
+  }
+
+}
+[role='tablist']{
+
+  & > div{
+    border-top: 1px solid $borderColor;
+  }
+  & > div:last-child{
+
+      border-bottom: 1px solid $borderColor;
+
+  }
+}
+
+
+[data-toggle="collapse"]:after {
+  transform: translateY(-50%);
+}

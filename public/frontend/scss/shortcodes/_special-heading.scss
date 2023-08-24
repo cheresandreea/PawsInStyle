@@ -1,0 +1,148 @@
+/*
+** Special Heading
+*/
+.special-heading {
+  word-wrap: break-word;
+  font-size: 60px;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-top: 10px;
+  margin-bottom: 40px !important;
+  @media(max-width: 1200px){
+    margin-bottom: 20px !important;
+  }
+
+  span{
+    font-size: 40px;
+    span{
+      color: $colorMain;
+    }
+  }
+  @media(max-width: 575px){
+    font-size: 2.3rem;
+    margin-bottom: 20px !important;
+}
+  &.text-lowercase {
+    font-size: 62px;
+    font-weight: 300;
+    margin-bottom: 0;
+    line-height: 1.1;
+  }
+  &.big,
+  &.text-uppercase {
+    font-size: 64px;
+    line-height: 0.8;
+  }
+  &.big {
+    margin-top: 0.65em;
+    margin-bottom: 0.65em;
+  }
+  @media (max-width: 1600px) {
+    &.big,
+    &.text-lowercase,
+    &.text-uppercase {
+      font-size: 42px;
+      line-height: 1;
+    }
+  }
+
+  & + h3 {
+    margin-top: -0.5em;
+  }
+
+  & + p {
+
+    @media(min-width: 1200px) {
+      &.extra-letter-spacing {
+        letter-spacing: 2em;
+      }
+    }
+  }
+  &.text-center + p {
+    text-align: center;
+  }
+
+  h3.small & {
+    line-height: 1;
+    font-size: 38px;
+  }
+
+}
+
+h3.small {
+  font-size: 20px;
+  margin-bottom: 36px;
+}
+.sub-title{
+text-transform: uppercase;
+  font-family: "Vidaloka", serif;
+  letter-spacing: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  color: $darkColor;
+  display: block;
+  line-height: 1;
+  &.absolute-subtitle{
+    position: absolute;
+    bottom: -4px;
+    left: -33px;
+    transform: rotate(-90deg);
+    transform-origin: left;
+    @media(max-width: 768px){
+      position: static;
+
+
+      transform: none;
+    }
+
+  }
+}
+.title-section{
+  position: relative;
+}
+.video-title{
+  position: absolute;
+  top: 47%;
+  transform: translateY(-50%);
+  left: 16px;
+  width: 432px;
+  z-index: 2;
+
+  @media(max-width: 1200px){
+    transform: none;
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-bottom: 25px !important;
+  }
+  @media(max-width: 768px){
+
+    width: 100%;
+
+  }
+}
+.portfolio-section{
+  .title-portfolio{
+    @media(max-width: 768px){
+      .special-heading{
+        margin-bottom: 10px !important;
+      }
+      text-align: center;
+    }
+
+    margin-left: 130px;
+    @media(max-width: 1550px){
+      margin-left: 0;
+
+    }
+    p{
+     max-width: 355px;
+      @media(max-width: 991px){
+        max-width: 100%;
+        text-align: center;
+      }
+    }
+
+  }
+}

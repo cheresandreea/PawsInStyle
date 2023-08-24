@@ -1,0 +1,160 @@
+/* widget_calendar */
+.calendar_wrap {
+  width: 100%;
+  margin-bottom: 0;
+  overflow: hidden;
+  border-radius: 5px;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+
+  @media (min-width: 768px) and (max-width: 992px) {
+    & {
+      overflow-x: auto;
+      overflow-y: hidden;
+    }
+  }
+}
+
+.widget_calendar {
+  table {
+    margin: 0;
+    position: relative;
+    text-align: center;
+    max-width: 370px;
+
+    //experiment
+    display: flex;
+    flex-direction: column;
+  }
+
+  caption {
+    line-height: 1;
+    padding: 21px 0 21px;
+    text-align: center;
+    color: $lightColor;
+    background-color: $colorMain;
+    font-family: 'Vidaloka', serif;
+  }
+  thead{
+    color: $lightColor;
+
+    th {
+      text-transform: uppercase;
+      background-color:$darkColor ;
+      font-size: 11px;
+      letter-spacing: 4px;
+      padding: 22px 0;
+      &:first-child {
+        padding-left: 26px;
+      }
+      &:last-child {
+        padding-right: 26px;
+      }
+      text-align: center;
+      width: 100px;
+    }
+  }
+
+  tbody {
+    background-color: $greyColor;
+    border-top: none;
+    color: #000;
+    tr {
+      &:first-child {
+        td {
+          padding-top: 31px;
+        }
+      }
+      &:last-child {
+        td {
+          padding-bottom: 30px;
+        }
+      }
+    }
+    td {
+      padding: 8px 4px;
+      position: relative;
+      width: 100px;
+      &:first-child {
+        padding-left: 26px;
+      }
+      &:last-child {
+        padding-right: 26px;
+      }
+      &.pad{
+        color: $fontColor;
+        opacity: 0.5;
+      }
+      a:hover{
+        color: #f28bbc!important;
+        opacity: 0.5;
+      }
+    }
+  }
+
+  th {
+    color: inherit;
+  }
+
+  tfoot {
+    td {
+      position: absolute;
+      top: 0;
+      a {
+        //uncomment to hide text near arrows
+        //font-size: 0;
+        //width: 60px;
+
+        text-align: center;
+        height: 60px;
+        line-height: 60px;
+        display: inline-block;
+        padding: 0 25px;
+        font-size: 0;
+        color: transparent;
+        &:hover {
+          &::before,
+          &::after{
+            color: #f28bbc;
+          }
+        }
+        &:before,
+        &:after {
+          color: $lightColor;
+          font-size: 14px;
+          font-family: 'FontAwesome';
+        }
+      }
+      &.pad {
+        display: none;
+      }
+      &:first-child{
+        border-right: 1px solid #f28bbc;
+      }
+      &:last-child{
+        border-left: 1px solid #f28bbc;
+      }
+    }
+
+    //prev
+    td:first-child {
+      left: 0;
+      padding: 0;
+      a {
+        &:before {
+          content: '\f053';
+        }
+      }
+    }
+    //next
+    td:last-child {
+      right: 0;
+      padding: 0;
+      a {
+        &:after {
+          content: '\f054';
+        }
+      }
+    }
+  }
+}

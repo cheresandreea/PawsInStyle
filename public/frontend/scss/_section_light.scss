@@ -1,0 +1,38 @@
+.ls {
+
+  .color-icon.bg-icon {
+    background-color: #ececec;
+  }
+
+
+  .form-control:-moz-placeholder {
+    color: $greyFontColor;
+    opacity: 1;
+  }
+  .form-control::-moz-placeholder {
+    color: $greyFontColor;
+    opacity: 1;
+  }
+
+  .form-control:-ms-input-placeholder {
+    color: $greyFontColor;
+  }
+
+  .form-control::-webkit-input-placeholder {
+    color: $greyFontColor;
+  }
+  .form-control:focus:-moz-placeholder {
+    color: transparent;
+  }
+  .form-control:focus::-moz-placeholder {
+    color: transparent;
+  }
+
+  .form-control:focus:-ms-input-placeholder {
+    color: transparent;
+  }
+
+  .form-control:focus::-webkit-input-placeholder {
+    color: transparent;
+  }
+}

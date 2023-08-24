@@ -1,0 +1,225 @@
+.team{
+  &.team-single{
+    .vertical-item{
+      flex-direction: column !important;
+    }
+    .nav-link{
+      min-width: 183px;
+      padding: 22px 28px;
+    }
+  }
+
+  .vertical-item.content-padding .item-content{
+    padding: 35px;
+    @media(max-width: 1200px){
+      padding: 20px;
+    }
+  }
+  .item-content{
+    a{
+     span{
+       transition: all 0.3s ease;
+     }
+      &:hover span{
+        color: $darkColor !important;
+      }
+    }
+    .tile{
+      font-size: 30px;
+      margin-bottom: 2px;
+      color: $darkColor;
+    &:hover a{
+      opacity: 1;
+      color: $colorMain;
+      a{
+        opacity: 1;
+      }
+    }
+    }
+    span{
+      font-size: 11px;
+      font-family: 'Vidaloka', serif;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      margin-bottom: 21px;
+      &.social-icons{
+        margin-bottom: 0;
+      }
+    }
+    p{
+      margin-top: 22px;
+      margin-bottom: 20px;
+      @media(max-width: 1200px){
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+    }
+    .social-icons a{
+      margin-right: 5px;
+    }
+  }
+  .content-heading{
+    margin-top: 32px;
+    margin-bottom: 17px;
+    font-size: 30px;
+  }
+  .entry-title{
+    font-size: 40px;
+    margin-bottom: 19px
+  }
+  .feature-list{
+    margin-top: 26px;
+    padding-left: 0;
+    li{
+      a{
+        color: $colorMain;
+        &:hover{
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+}
+.team {
+  [class*='col-']:nth-child(3n-1) {
+    .vertical-item{
+      display: flex;
+      flex-direction: column-reverse;
+      @media(max-width: 991px){
+        flex-direction: column;
+      }
+    }
+  }
+  //[class*='col-']:nth-child(5) {
+  //  .vertical-item{
+  //    display: flex;
+  //    flex-direction: column-reverse;
+  //  }
+  //}
+}
+
+.section-team{
+  .owl-carousel{
+    position: relative;
+    .owl-item:nth-child(odd){
+      .vertical-item{
+        display: flex;
+        flex-direction: column-reverse;
+        @media(max-width: 1199px){
+          flex-direction: column;
+        }
+      }
+    }
+    .owl-dots{
+      display: none;
+      @media(max-width: 768px){
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+      }
+      .owl-dot{
+        &:hover{
+          span{
+            border: 2px solid $colorMain;
+          }
+        }
+        span{
+          border: 2px solid $darkColor;
+          opacity: 1;
+          width: 10px;
+          height: 10px;
+          margin: 10px 0px;
+          @media(max-width: 768px){
+            margin: 10px 10px 0;
+
+          }
+        }
+        &.active{
+          span{
+            background-color: $colorMain;
+            border-color: $colorMain;
+          }
+        }
+      }
+    }
+    .owl-nav{
+      bottom: -46px;
+      top: auto;
+      left: 62.5%;
+      transform: translateX(-50%);
+      @media(max-width: 1199px){
+        bottom: -20px;
+        left: 60%;
+      }
+      @media(max-width: 768px){
+        display: none;
+      }
+      &:after{
+        content: "/";
+        position: absolute;
+        top: 0;
+        left: 67px;
+        font-family: "Vidaloka", serif;
+        font-size: 12px;
+        color: $darkColor;
+      }
+
+      .owl-prev{
+        opacity: 1;
+        &:hover{
+          opacity: 1;
+          &:after{
+            color: $colorMain;
+          }
+        }
+        &.disabled{
+          opacity: 1;
+          &:hover{
+            opacity: 1;
+          }
+        }
+
+        &:after{
+          content:"prev";
+          font-family: "Vidaloka", serif;
+          font-size: 12px;
+          text-transform: uppercase;
+          letter-spacing: 5px;
+          color: $darkColor;
+        }
+        i{
+          display: none;
+        }
+      }
+      .owl-next{
+        right: auto;
+        left: 84px;
+        opacity: 1;
+        &:hover{
+          opacity: 1;
+          &:after{
+            color: $colorMain;
+          }
+        }
+        &.disabled{
+          opacity: 1;
+          &:hover{
+            opacity: 1;
+          }
+        }
+        &:after{
+          content:"next";
+          font-family: "Vidaloka", serif;
+          font-size: 12px;
+          text-transform: uppercase;
+          letter-spacing: 5px;
+          color: $darkColor;
+        }
+        i{
+          display: none;
+        }
+      }
+    }
+  }
+
+}

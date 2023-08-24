@@ -1,0 +1,62 @@
+/*
+** Helper Utilities
+*/
+@import 'helpers/helpers_layout';
+@import 'helpers/helpers_colors';
+@import 'helpers/helpers_spacing';
+
+.z-6{
+  z-index: 6;
+}
+.z-7-before{
+  &::before{
+    z-index: 7;
+  }
+}
+
+.transparent-bg{
+  background: transparent;
+}
+
+.border-rad-5{
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.font-main{
+  font-family: 'Vidaloka', serif;
+}
+
+.ds .big-title{
+  font-size: 120px;
+  line-height: 120px;
+  color: $colorMain;
+  font-family: 'Vidaloka', serif;
+  text-transform: capitalize;
+
+  @media (max-width: 768px) {
+    font-size: 80px;
+    line-height: 85px;
+  }
+}
+
+
+
+
+
+
+
+.quote{
+  position: relative;
+  padding-right: 85px;
+  padding-left: 85px;
+
+
+  @media (max-width: 768px){
+    padding-left: 0;
+    padding-right: 0;
+    &::before, &::after{
+      content: none!important;
+    }
+  }
+}
