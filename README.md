@@ -21,3 +21,8 @@ Welcome to PawsInStyle, where fashion meets functionality for your beloved canin
 * database: Manages the database schema and related SQL files to ensure smooth data management.
 
 Thank you for choosing PawsInStyle for your dog's fashion needs! We're committed to keeping your furry friend looking paw-sitively fabulous! 🐾
+![image](https://github.com/cheresandreea/PawsInStyle/assets/115451911/210a7bae-6d8d-499e-ba54-fe6bb744108b)
+![image](https://github.com/cheresandreea/PawsInStyle/assets/115451911/5d588120-b750-43b6-8699-595b498308f9)
+![image](https://github.com/cheresandreea/PawsInStyle/assets/115451911/8cf77eba-b47e-4b6f-a3b7-3af5154360e7)
+![image](https://github.com/cheresandreea/PawsInStyle/assets/115451911/b48bcb8b-859a-48b9-bfa7-006829d864e3)
+
