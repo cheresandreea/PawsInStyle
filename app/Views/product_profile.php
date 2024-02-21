@@ -48,12 +48,13 @@
         <span aria-hidden="true">&times;</span>
     </button>
     <div class="widget widget_search">
-        <form method="get" class="searchform search-form" action="/">
+        <form method="get" class="searchform search-form" action="<?=base_url()?>/homepage/index">
             <div class="form-group">
-                <input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input">
+                <input type="text" name="search_title" value="<?php $title ?>">
             </div>
             <button type="submit" class="btn">Search</button>
         </form>
+
     </div>
 </div>
 
@@ -94,7 +95,7 @@
                             <div class="dropdown">
                                 <a class="dropdown-toggle dropdown-shopping-cart" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <i class="flaticon-bag"></i>
-                                    <span class="badge bg-maincolor">2</span>
+                                    <span class="badge bg-maincolor"><?=count($cart)?></span>
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-right ls">
                                     <div class="widget woocommerce widget_shopping_cart">
@@ -103,45 +104,38 @@
                                         <div class="widget_shopping_cart_content">
 
                                             <ul class="woocommerce-mini-cart cart_list product_list_widget ">
-                                                <li class="woocommerce-mini-cart-item mini_cart_item">
-                                                    <a href="#" class="remove" aria-label="Remove this item" data-product_id="73" data-product_sku="">×</a>
-                                                    <a href="shop-product-right.html">
-                                                        <img src="<?= base_url()?>/public/frontend/images/shop/26.jpg" alt="">Ship Your Idea
-                                                    </a>
 
-                                                    <span class="quantity">1 ×
-															<span class="woocommerce-Price-amount amount">
-																<span class="woocommerce-Price-currencySymbol">$</span>
-																12.00
-															</span>
-														</span>
-                                                </li>
-                                                <li class="woocommerce-mini-cart-item mini_cart_item">
-                                                    <a href="#" class="remove" aria-label="Remove this item" data-product_id="76" data-product_sku="">×</a>
-                                                    <a href="shop-product-right.html">
-                                                        <img src="<?= base_url()?>/public/frontend/images/shop/26.jpg" alt="">Woo Album #1
-                                                    </a>
+                                                <?php for ($i = 0; $i < count($cart); $i++): ?>
 
-                                                    <span class="quantity">1 ×
-															<span class="woocommerce-Price-amount amount">
-																<span class="woocommerce-Price-currencySymbol">$</span>
-																15.00
-															</span>
-														</span>
-                                                </li>
+                                                    <!---->
+                                                    <li class="woocommerce-mini-cart-item mini_cart_item">
+                                                        <a href="#" class="remove" aria-label="Remove this item" data-product_id="73" data-product_sku="">×</a>
+                                                        <a href="shop-product-right.html">
+                                                            <img src="<?= base_url() ?>/public/profile_photos/<?= $cart[$i]['photo']?>" alt=""><?= $cart[$i]['title']?>
+                                                        </a>
+
+                                                        <span class="quantity"><?= $cart[$i]['quantity']?> ×
+                                                                    <span class="woocommerce-Price-amount amount">
+                                                                        <span class="woocommerce-Price-currencySymbol">$</span>
+                                                                        <?= $cart[$i]['price']?>
+                                                                    </span>
+                                                                </span>
+                                                    </li>
+
+                                                <?php endfor; ?>
                                             </ul>
 
                                             <p class="woocommerce-mini-cart__total total">
                                                 <strong>Subtotal:</strong>
                                                 <span class="woocommerce-Price-amount amount">
 														<span class="woocommerce-Price-currencySymbol">$</span>
-														27.00
+														<?= $total?>
 													</span>
                                             </p>
 
                                             <p class="woocommerce-mini-cart__buttons buttons">
-                                                <a href="shop-cart.html" class="button wc-forward">View cart</a>
-                                                <a href="shop-cart.html" class="button wc-forward checkout">checkout</a>
+                                                <a href="<?=base_url()?>/homepage/cart" class="button wc-forward">View cart</a>
+                                                <!--                                                <a href="shop-cart.html" class="button wc-forward checkout">checkout</a>-->
                                             </p>
 
                                         </div>
@@ -211,9 +205,9 @@
             <div class="container-fluid">
                 <div class="row align-items-center">
                     <div class="col-8 col-xl-2 text-left">
-<!--                        <a href="./" class="logo">-->
+                        <a href="<?= base_url()?>/homepage/">
                             <img style="width: 180px; margin:0; padding: 0;" src="<?= base_url()?>/public/frontend/images/pawsinstyle.png" alt="">
-<!--                        </a>-->
+                        </a>
 
                     </div>
                     <div class="col-xl-8 col-1 text-center">
@@ -222,15 +216,7 @@
                             <ul class="nav sf-menu">
 
                                 <li class="active">
-                                    <a style="font-size: 20px" index.html">Home</a>
-                                    <ul>
-                                        <li>
-                                            <a href="index.html">MultiPage</a>
-                                        </li>
-                                        <li>
-                                            <a href="index_static.html">Static Intro</a>
-                                        </li>
-                                    </ul>
+                                    <a href="<?= base_url()?>/homepage/" style="font-size: 20px" index.html">Home</a>
                                 </li>
 
                             </ul>
@@ -245,7 +231,7 @@
                             <div class="dropdown">
                                 <a class="dropdown-toggle dropdown-shopping-cart" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <i class="flaticon-bag"></i>
-                                    <span class="badge bg-maincolor">2</span>
+                                    <span class="badge bg-maincolor"><?=count($cart)?></span>
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-right ls">
                                     <div class="widget woocommerce widget_shopping_cart">
@@ -254,44 +240,37 @@
                                         <div class="widget_shopping_cart_content">
 
                                             <ul class="woocommerce-mini-cart cart_list product_list_widget ">
-                                                <li class="woocommerce-mini-cart-item mini_cart_item">
-                                                    <a href="#" class="remove" aria-label="Remove this item" data-product_id="73" data-product_sku="">×</a>
-                                                    <a href="shop-product-right.html">
-                                                        <img src="<?= base_url()?>/public/frontend/images/shop/26.jpg" alt="">Ship Your Idea
-                                                    </a>
 
-                                                    <span class="quantity">1 ×
-															<span class="woocommerce-Price-amount amount">
-																<span class="woocommerce-Price-currencySymbol">$</span>
-																12.00
-															</span>
-														</span>
-                                                </li>
-                                                <li class="woocommerce-mini-cart-item mini_cart_item">
-                                                    <a href="#" class="remove" aria-label="Remove this item" data-product_id="76" data-product_sku="">×</a>
-                                                    <a href="shop-product-right.html">
-                                                        <img src="<?= base_url()?>/public/frontend/images/shop/26.jpg" alt="">Woo Album #1
-                                                    </a>
+                                                <?php for ($i = 0; $i < count($cart); $i++): ?>
 
-                                                    <span class="quantity">1 ×
-															<span class="woocommerce-Price-amount amount">
-																<span class="woocommerce-Price-currencySymbol">$</span>
-																15.00
-															</span>
-														</span>
-                                                </li>
+                                                    <li class="woocommerce-mini-cart-item mini_cart_item">
+                                                        <a href="#" class="remove" aria-label="Remove this item" data-product_id="73" data-product_sku="">×</a>
+                                                        <a href="shop-product-right.html">
+                                                            <img src="<?= base_url() ?>/public/profile_photos/<?= $cart[$i]['photo']?>" alt=""><?= $cart[$i]['title']?>
+                                                        </a>
+
+                                                        <span class="quantity"><?= $cart[$i]['quantity']?> ×
+                                                                    <span class="woocommerce-Price-amount amount">
+                                                                        <span class="woocommerce-Price-currencySymbol">$</span>
+                                                                        <?= $cart[$i]['title']?>
+                                                                    </span>
+                                                                </span>
+                                                    </li>
+                                                <?php endfor; ?>
+
+
                                             </ul>
 
                                             <p class="woocommerce-mini-cart__total total">
                                                 <strong>Subtotal:</strong>
                                                 <span class="woocommerce-Price-amount amount">
 														<span class="woocommerce-Price-currencySymbol">$</span>
-														27.00
+														<?= $total?>
 													</span>
                                             </p>
 
                                             <p class="woocommerce-mini-cart__buttons buttons">
-                                                <a href="shop-cart.html" class="button wc-forward">View cart</a>
+                                                <a href="<?=base_url()?>/homepage/cart" class="button wc-forward">View cart</a>
                                                 <a href="shop-cart.html" class="button wc-forward checkout">checkout</a>
                                             </p>
 
@@ -361,23 +340,32 @@
             <span class="toggle_menu"><span></span></span>
         </header>
 
-        <section class="page_title s-parallax s-overlay ls title-overlay s-py-25">
-            <div class="container">
-                <div class="row">
-
-                    <div class="fw-divider-space hidden-below-lg mt-130"></div>
-                    <div class="fw-divider-space hidden-above-lg mt-60"></div>
-
-                    <div class="col-md-12 text-center">
-                        <h1>PawInStyle</h1>
-                    </div>
-
-                    <div class="fw-divider-space hidden-below-lg mt-130"></div>
-                    <div class="fw-divider-space hidden-above-lg mt-60"></div>
-
+<!--        <section class="page_title s-parallax s-overlay ls title-overlay s-py-25">-->
+<!--            <div class="container">-->
+<!--                <div class="row">-->
+<!---->
+<!--                    <div class="fw-divider-space hidden-below-lg mt-130"></div>-->
+<!--                    <div class="fw-divider-space hidden-above-lg mt-60"></div>-->
+<!---->
+<!--                    <div class="col-md-12 text-center">-->
+<!--                        <h1>PawInStyle</h1>-->
+<!--                    </div>-->
+<!---->
+<!--                    <div class="fw-divider-space hidden-below-lg mt-130"></div>-->
+<!--                    <div class="fw-divider-space hidden-above-lg mt-60"></div>-->
+<!---->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </section>-->
+        <div class="container-fluid">
+            <div class="image-container" style="background-color: white; position: relative; display: flex; justify-content: center; align-items: center; height: 100px;">
+                <img src="<?= base_url() ?>/public/profile_photos/cris.jpeg" alt="Image Description" style="width: 100%; height: 150px">
+                <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255, 255, 255, 0.5); z-index: 1;"></div>
+                <div class="col-md-12 text-center" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 2;">
+                    <h1 style="color: #f89bcb; text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;">PawsInStyle</h1>
                 </div>
             </div>
-        </section>
+        </div>
 
 
         <section class="ls s-pt-70 s-pb-20 s-pb-sm-70 s-py-lg-100 s-py-xl-150 c-gutter-60">
@@ -391,21 +379,18 @@
 
                             <div class="images" data-columns="4">
                                 <figure>
-                                    <div data-thumb="<?= base_url()?>/public/frontend/images/shop/11.jpg">
-                                        <a href="<?= base_url()?>/public/frontend/images/shop/11.jpg">
-                                            <img src="<?= base_url()?>/public/frontend/images/shop/11.jpg" alt="" data-caption="" data-src="<?= base_url()?>/public/frontend/images/shop/11.jpg" data-large_image="<?= base_url()?>/public/frontend/images/shop/11.jpg" data-large_image_width="1000" data-large_image_height="1000">
+                                    <div data-thumb="<?= base_url()?>/public/profile_photos/<?= $product["photo"]?>">
+                                        <a href="<?= base_url()?>/public/profile_photos/<?= $product["photo"]?>">
+                                            <img src="<?= base_url()?>/public/profile_photos/<?= $product["photo"] ?>" alt="" data-caption="" data-src="<?= base_url()?>/public/profile_photos/" data-large_image="<?= base_url()?>/public/profile_photos/" data-large_image_width="1000" data-large_image_height="1000">
                                         </a>
                                     </div>
-                                    <div data-thumb="<?= base_url()?>/public/frontend/images/shop/11_back.jpg">
-                                        <a href="<?= base_url()?>/public/frontend/images/shop/11_back.jpg">
-                                            <img src="<?= base_url()?>/public/frontend/images/shop/11_back.jpg" alt="" data-caption="" data-src="<?= base_url()?>/public/frontend/images/shop/11_back.jpg" data-large_image="<?= base_url()?>/public/frontend/images/shop/11_back.jpg" data-large_image_width="1000" data-large_image_height="1000">
-                                        </a>
-                                    </div>
+
                                     <div data-thumb="<?= base_url()?>/public/frontend/images/shop/10_back.jpg">
                                         <a href="<?= base_url()?>/public/frontend/images/shop/10_back.jpg">
                                             <img src="<?= base_url()?>/public/frontend/images/shop/10_back.jpg" alt="" data-caption="" data-src="<?= base_url()?>/public/frontend/images/shop/10_back.jpg" data-large_image="<?= base_url()?>/public/frontend/images/shop/10_back.jpg" data-large_image_width="1000" data-large_image_height="1000">
                                         </a>
                                     </div>
+
                                     <div data-thumb="<?= base_url()?>/public/frontend/images/shop/10.jpg">
                                         <a href="<?= base_url()?>/public/frontend/images/shop/10.jpg">
                                             <img src="<?= base_url()?>/public/frontend/images/shop/10.jpg" alt="" data-caption="" data-src="<?= base_url()?>/public/frontend/images/shop/10.jpg" data-large_image="<?= base_url()?>/public/frontend/images/shop/10.jpg" data-large_image_width="1000" data-large_image_height="1000">
@@ -436,35 +421,23 @@
                                     <p><?= $product["description"]?>.</p>
                                 </div>
 
-                                <form>
-
+                                <form method="post" action="<?=base_url()?>/homepage/addCart">
+                                    <input name="product_id" value="<?=$product["product_id"]?>" hidden/>
                                     <table class="variations">
                                         <tbody>
-                                        <tr>
-                                            <td class="label">
-                                                <label for="pa_color">Color</label>
-                                            </td>
-                                            <td class="value">
-                                                <select id="pa_color" class="wc-default-select" name="attribute_pa_color" data-attribute_name="attribute_pa_color">
-                                                    <option value="">Choose an option</option>
-                                                    <option value="blue" class="attached enabled">Blue</option>
-                                                </select>
-                                            </td>
-                                        </tr>
                                         <tr>
                                             <td class="label">
                                                 <label for="pa_size">Size</label>
                                             </td>
                                             <td class="value">
+
                                                 <select id="pa_size" class="wc-default-select" name="attribute_pa_size" data-attribute_name="attribute_pa_size">
-                                                    <option value="">Choose an option</option>
-                                                    <option value="x-small" class="attached enabled">X Small</option>
-                                                    <option value="small" class="attached enabled">Small</option>
-                                                    <option value="medium" class="attached enabled">Medium</option>
-                                                    <option value="large" class="attached enabled">Large</option>
-                                                    <option value="x-large" class="attached enabled">X Large</option>
-                                                    <option value="xx-large" class="attached enabled">XX Large</option>
-                                                    <option value="xxx-large" class="attached enabled">XXX Large</option>
+
+                                                    <option value="" class="attached enabled">Select a size</option>
+                                                    <?php foreach ($sizes as $size): ?>
+                                                        <option value="<?= $size['size_id']?>" class="attached enabled"><?= $size['size']?></option>
+                                                    <?php endforeach; ?>
+
                                                 </select>
                                                 <a class="reset_variations" href="#">Clear</a>
                                             </td>
@@ -475,17 +448,21 @@
 
                                     <div class="single_variation_wrap">
                                         <div>
-                                            <div class="quantity">
-                                                <input type="button" value="+" class="plus">
-                                                <i class="fa fa-angle-up" aria-hidden="true"></i>
-                                                <input type="number" class="input-text qty text" step="1" min="1" max="1000" name="quantity" value="1" title="Qty" size="4">
-                                                <input type="button" value="-" class="minus">
-                                                <i class="fa fa-angle-down" aria-hidden="true"></i>
-                                            </div>
-                                            <button type="submit" class="single_add_to_cart_button button alt">Add to cart</button>
+                                                <div class="quantity">
+                                                    <input type="button" value="+" class="plus">
+                                                    <i class="fa fa-angle-up" aria-hidden="true"></i>
+                                                    <input type="number" class="input-text qty text" step="1" min="1" max="100" name="quantity" value="1" title="Qty" size="4">
+                                                    <input type="button" value="-" class="minus">
+                                                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                                </div>
+
+<!--                                                <button type="submit" class="btn">Add to cart</button>-->
+
+
+                                            <button rel="nofollow" type="submit" class="button product_type_simple add_to_cart_button">Add to
+                                                cart</button>
                                         </div>
                                     </div>
-
 
                                 </form>
 
@@ -496,8 +473,7 @@
 										</span>
 
 
-                                    <span class="posted_in">Categories: <a href="shop-left.html" rel="tag">Clothing</a>, <a href="shop-left.html" rel="tag">T-shirts</a>
-										</span>
+                                    <span class="posted_in">Categories: <a href="shop-left.html" rel="tag"><?= $product['category_name']?></a></span>
                                     <span class="tagged_as">Tag: <a href="shop-left.html" rel="tag">premium</a></span>
 
 
@@ -522,26 +498,20 @@
                                     <li class="description_tab" id="tab-title-description" role="tab" aria-controls="tab-description">
                                         <a href="#tab-description">Description</a>
                                     </li>
-                                    <li class="additional_information_tab active" id="tab-title-additional_information" role="tab" aria-controls="tab-additional_information">
-                                        <a href="#tab-additional_information">information</a>
-                                    </li>
                                     <li class="reviews_tab" id="tab-title-reviews" role="tab" aria-controls="tab-reviews">
                                         <a href="#tab-reviews">Reviews (3)</a>
                                     </li>
                                 </ul>
 
                                 <div class="panel wc-tab" id="tab-description" role="tabpanel" aria-labelledby="tab-title-description">
-
-
                                     <p><?= $product["description"]?>.</p>
                                 </div>
+
                                 <div class="panel wc-tab" id="tab-additional_information" role="tabpanel" aria-labelledby="tab-title-additional_information">
 
                                     <h2>Information</h2>
 
                                     <table class="shop_attributes">
-
-
                                         <tbody>
                                         <tr>
                                             <th>Color</th>
@@ -709,37 +679,37 @@
                             </div>
 
 
-                            <section class="up-sells upsells products">
-
-                                <h2>You may also like</h2>
-
-                                <ul class="products">
-                                    <?php foreach ($products as $product): ?>
-                                        <li class="product">
-                                            <a href="shop-product-left.html">
-                                                <span class="onsale">Sale!</span>
-                                                <img src="<?= base_url()?>/public/frontend/images/shop/07.jpg" alt="">
-                                                <h2><?= $product["title"]?></h2>
-                                                <div class="star-rating">
-                                                    <span style="width:<?= $product["rating"] * 20?>%">Rated <strong class="rating"><?= $product["rating"]?></strong> out of 5</span>
-                                                </div>
-                                                <span class="price">
-                                                        <span>
-                                                            <span>$</span><?= $product["price"]?>
-                                                        </span>
-                                                        –
-                                                        <span>
-                                                            <span>$</span><?= $product["price"]?>
-                                                        </span>
-                                                    </span>
-                                            </a>
-                                            <a rel="nofollow" href="shop-product-left.html" data-quantity="1" data-product_id="40" data-product_sku="" class="button product_type_variable add_to_cart_button">Select
-                                                options</a>
-                                        </li>
-                                    <?php endforeach; ?>
-                                </ul>
-
-                            </section>
+<!--                            <section class="up-sells upsells products">-->
+<!---->
+<!--                                <h2>You may also like</h2>-->
+<!---->
+<!--                                <ul class="products">-->
+<!--                                    --><?php //foreach ($products as $product): ?>
+<!--                                        <li class="product">-->
+<!--                                            <a href="shop-product-left.html">-->
+<!--                                                <span class="onsale">Sale!</span>-->
+<!--                                                <img src="--><?php //= base_url()?><!--/public/frontend/images/shop/07.jpg" alt="">-->
+<!--                                                <h2>--><?php //= $product["title"]?><!--</h2>-->
+<!--                                                <div class="star-rating">-->
+<!--                                                    <span style="width:--><?php //= $product["rating"] * 20?><!--">Rated <strong class="rating">--><?php //= $product["rating"]?><!--</strong> out of 5</span>-->
+<!--                                                </div>-->
+<!--                                                <span class="price">-->
+<!--                                                        <span>-->
+<!--                                                            <span>$</span>--><?php //= $product["price"]?>
+<!--                                                        </span>-->
+<!--                                                        –-->
+<!--                                                        <span>-->
+<!--                                                            <span>$</span>--><?php //= $product["price"]?>
+<!--                                                        </span>-->
+<!--                                                    </span>-->
+<!--                                            </a>-->
+<!--                                            <a rel="nofollow" href="shop-product-left.html" data-quantity="1" data-product_id="40" data-product_sku="" class="button product_type_variable add_to_cart_button">Select-->
+<!--                                                options</a>-->
+<!--                                        </li>-->
+<!--                                    --><?php //endforeach; ?>
+<!--                                </ul>-->
+<!---->
+<!--                            </section>-->
 
 
                             <section class="related products">
@@ -748,10 +718,10 @@
 
                                 <ul class="products">
 
-                                    <?php foreach ($products as $product): ?>
+                                    <?php foreach ($products_of_certain_category as $product): ?>
                                         <li class="product">
-                                            <a href="shop-product-left.html">
-                                                <img src="<?= base_url()?>/public/frontend/images/shop/05.jpg" alt="">
+                                            <a href="<?= base_url() ?>/homepage/profile/<?= $product["product_id"] ?>">
+                                                <img src="<?= base_url() ?>/public/profile_photos/<?= $product["photo"] ?>" alt="">
                                                 <h2><?= $product["title"]?></h2>
                                                 <div class="star-rating">
                                                     <span style="width:<?= $product["rating"] * 20 ?>%">Rated <strong class="rating"><?= $product["rating"]?></strong> out of 5</span>
@@ -762,7 +732,7 @@
                                                         </span>
                                                     </span>
                                             </a>
-                                            <a rel="nofollow" href="#" data-quantity="1" data-product_id="56" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a>
+<!--                                            <a rel="nofollow" href="#" data-quantity="1" data-product_id="56" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a>-->
                                         </li>
                                     <?php endforeach; ?>
 
@@ -782,9 +752,13 @@
                             <h3 class="widget-title">Categories</h3>
                             <ul class="product-categories">
                                 <ul class="product-categories">
+                                    <li class="cat-item cat-parent">
+                                        <a style="<?=(!(isset($_GET['category'])))?'font-weight: bold':''?>" href="<?=base_url()?>/homepage/index">All</a>
+                                        <span class="count"><?=$totalNumber?></span>
+                                    </li>
                                     <?php foreach ($category as $cat): ?>
                                         <li class="cat-item cat-parent">
-                                            <a href="shop-right.html"><?=$cat["name"]?></a>
+                                            <a style="<?=(isset($_GET['category']) && $_GET['category']==$cat["category_id"])?'font-weight: bold':''?>" href="<?=base_url()?>/homepage/index?category=<?=$cat["category_id"]?>"> <?=$cat["name"]?> </a>
                                             <span class="count"><?=$cat["numberOfItems"]?></span>
                                         </li>
                                     <?php endforeach; ?>
@@ -797,67 +771,17 @@
 
                             <h3 class="widget-title">Search</h3>
 
-                            <form role="search" class="woocommerce-product-search search-form" action="/">
+                            <form method="get" class="searchform search-form" action="<?=base_url()?>/homepage/index">
 
                                 <label class="screen-reader-text" for="woocommerce-product-search-field-widget">
                                     Search for:
                                 </label>
 
-                                <input type="search" id="woocommerce-product-search-field-widget" class="search-field form-control" placeholder="Keyword" value="" name="search">
+                                <input type="search" id="woocommerce-product-search-field-widget" class="search-field form-control" placeholder="Keyword" value="<?php $title ?>" name="search_title">
                                 <button type="submit" class="search-submit">
                                     <span class="screen-reader-text">Search</span>
                                 </button>
                             </form>
-                        </div>
-
-                        <div class="widget woocommerce widget_shopping_cart">
-
-                            <h3 class="widget-title">Shopping Cart</h3>
-
-                            <div class="widget_shopping_cart_content">
-
-                                <ul class="woocommerce-mini-cart cart_list product_list_widget ">
-                                    <li class="woocommerce-mini-cart-item mini_cart_item">
-                                        <a href="#" class="remove" aria-label="Remove this item" data-product_id="73" data-product_sku="">×</a>
-                                        <a href="shop-product-right.html">
-                                            <img src="<?= base_url()?>/public/frontend/images/shop/26.jpg" alt="">Ship Your Idea
-                                        </a>
-
-                                        <span class="quantity">1 ×
-												<span class="woocommerce-Price-amount amount">
-													<span class="woocommerce-Price-currencySymbol">$</span>
-													12.00
-												</span>
-											</span>
-                                    </li>
-                                    <li class="woocommerce-mini-cart-item mini_cart_item">
-                                        <a href="#" class="remove" aria-label="Remove this item" data-product_id="76" data-product_sku="">×</a>
-                                        <a href="shop-product-right.html">
-                                            <img src="<?= base_url()?>/public/frontend/images/shop/26.jpg" alt="">Woo Album #1
-                                        </a>
-
-                                        <span class="quantity">1 ×
-												<span class="woocommerce-Price-amount amount">
-													<span class="woocommerce-Price-currencySymbol">$</span>
-													15.00
-												</span>
-											</span>
-                                    </li>
-                                </ul>
-
-                                <p class="woocommerce-mini-cart__total total">
-                                    <strong>Subtotal:</strong>
-                                    <span class="woocommerce-Price-amount amount">
-											<span class="woocommerce-Price-currencySymbol">$</span>
-											27.00
-										</span>
-                                </p>
-
-                                <p class="woocommerce-mini-cart__buttons buttons">
-                                    <a href="shop-cart.html" class="button wc-forward">View cart</a>
-                                </p>
-
-                            </div>
                         </div>
 
                     </aside>

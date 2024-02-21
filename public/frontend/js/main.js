@@ -828,7 +828,7 @@ function documentReadyInit() {
 		$('#search_modal').modal('show').find('input').first().focus();
 	});
 	//search form processing - not need in WP
-	$('form.searchform, form.search-form').on('submit', function( e ){
+	$('').on('submit', function( e ){
 
 		e.preventDefault();
 		var $form = $(this);

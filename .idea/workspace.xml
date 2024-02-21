@@ -4,7 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f154bb4-f560-4cbe-a492-f05235679a7b" name="Changes" comment="" />
+    <list default="true" id="9f154bb4-f560-4cbe-a492-f05235679a7b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Models/OrdersModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/OrdersProductModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/ProductSizeModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Views/cart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Views/checkout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Controllers/HomePage.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/HomePage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ProductModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/ProductModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/homepage.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/homepage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/product_profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/product_profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/frontend/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1692876692.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1692876717.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1692876755.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1692876757.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1692876770.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1692876891.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1692876894.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1692876899.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1692876903.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1692877116.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1692877340.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1692877343.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1692877559.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1692877617.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1692877643.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1692877721.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1692877775.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1692877812.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1692877814.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1692878450.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,24 +52,25 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="2UImc4FJVPnxc0ZLHe8tl5ttH7u" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/INSTALLER/htdocs/shop_new/public/frontend/images",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/INSTALLER/htdocs/eufacts4&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\INSTALLER\htdocs\shop_new\public\frontend\images" />
@@ -62,11 +95,45 @@
       <workItem from="1692637143719" duration="1420000" />
       <workItem from="1692684243368" duration="36105000" />
       <workItem from="1692857969861" duration="351000" />
-      <workItem from="1692858376053" duration="19198000" />
+      <workItem from="1692858376053" duration="19363000" />
+      <workItem from="1693391226949" duration="2000" />
+      <workItem from="1693741378873" duration="6212000" />
+      <workItem from="1693809531434" duration="33184000" />
+      <workItem from="1694077159420" duration="1762000" />
+      <workItem from="1694156820645" duration="5662000" />
+      <workItem from="1694260487166" duration="2321000" />
+      <workItem from="1694417410952" duration="445000" />
+      <workItem from="1694594269748" duration="10284000" />
+      <workItem from="1694677799984" duration="14141000" />
+      <workItem from="1694760339201" duration="12435000" />
+      <workItem from="1694945354481" duration="663000" />
+      <workItem from="1695107930885" duration="4954000" />
+      <workItem from="1696411301071" duration="4000" />
+      <workItem from="1696436235282" duration="150000" />
+      <workItem from="1698215067410" duration="20000" />
+      <workItem from="1698215454739" duration="27000" />
+      <workItem from="1706545303641" duration="798000" />
+      <workItem from="1706549677399" duration="424000" />
+      <workItem from="1706711796924" duration="265000" />
+      <workItem from="1706713299599" duration="948000" />
+      <workItem from="1707645777523" duration="1224000" />
+      <workItem from="1708439367029" duration="5169000" />
+      <workItem from="1708552215093" duration="445000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

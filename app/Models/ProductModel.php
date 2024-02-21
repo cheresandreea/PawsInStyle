@@ -59,20 +59,6 @@ class ProductModel extends Model
         return $result;
     }
 
-    public function getAllProductsSearch($searchArray)
-    {
-        $this->select('*');
-        if(isset($searchArray['title']))
-        {
-            $this->like('title', $searchArray['title'], 'both');
-        }
-        if(isset($searchArray['description']))
-        {
-            $this->like('description', $searchArray['description'], 'both');
-        }
-        return $this->get()->getResultArray();
-    }
-
     public function getProductsWithAdminName()
     {
         return $this->select('product.*, admin.name as admin_name')
@@ -96,6 +82,67 @@ class ProductModel extends Model
             ->get()
             ->getRow()
             ->numberOfItems;
+    }
+
+    public function getCategoryName($productID)
+    {
+        return $this->select("category.name as category_name")
+            ->join('category', 'product.category_id = category.category_id', 'inner')
+            ->where('product_id', $productID)
+            ->get()->getRowArray();
+    }
+
+    public function getTitleByProductID($productID)
+    {
+        return $this->select("title")
+                    ->where('product_id', $productID)
+                    ->get()
+                    ->getRow()
+                    ->title;
+    }
+
+    public function getPriceByProductID($productID)
+    {
+        return $this->select("price")
+            ->where('product_id', $productID)
+            ->get()
+            ->getRow()
+            ->price;
+    }
+
+    public function getAllProductsByCategoryAndSearch($searchArray)
+    {
+        $this->select('*');
+        if(isset($searchArray['title']))
+        {
+            $this->like('title', $searchArray['title'], 'both');
+        }
+
+        if(isset($searchArray['category']))
+        {
+            $this->where('category_id', $searchArray['category']);
+        }
+        return  $this->get()->getResultArray();
+    }
+
+    public function getAllProductsSearch($searchArray)
+    {
+        $this->select('*');
+        if(isset($searchArray['title']))
+        {
+            $this->like('title', $searchArray['title'], 'both');
+        }
+
+        return $this->get()->getResultArray();
+    }
+
+    public function getPhotoByProductID($productID)
+    {
+        return $this->select('photo')
+                    ->where("product_id", $productID)
+                    ->get()
+                    ->getRow()
+                    ->photo;
     }
 
 }
